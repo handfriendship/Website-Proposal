@@ -1,0 +1,77 @@
+body {margin:0;padding-left:1%;padding-right:1%;font-family: 'Montserrat', sans-serif;}
+table {max-width:800px;}
+
+.menu {color:white;font-size:28px;}
+.menu td > .span-wrap {padding-left:8.57%;padding-right:8.57%;}
+.menu td > .span-wrap > .inner-span {border-left-width:1px;border-left-style:solid;border-left-color:white;}
+a:link {color:white;text-decoration: none;}
+a:visited {color:white;text-decoration: none;}
+a:hover {color:white;text-decoration: none;}
+
+.lorem-ipsum td {padding-left:4.57%;padding-right:4.57%;padding-top:47px;padding-bottom:42px;
+  font-size:17px;color:#666666;}
+
+.your-website td {padding-left:4.57%;padding-bottom:48px;padding-top:0px;font-size:25px;font-weight:500;letter-spacing:-0.1px;}
+
+.ophthalmology {padding-left:20px;padding-right:20px;}
+.ophthalmology td img {width:100%;}
+
+.issue-we-found td {padding-top:58px;padding-bottom:0;font-size:20px;padding-left:4.28%;font-weight:500;letter-spacing:-0.1px;}
+
+.issues {font-family:'Roboto', sans-serif;}
+.issues td {padding-left:6.85%;padding-top:10px;}
+.issues td {font-size:20px;color:#666666}
+.issues td .num {font-size:20px;padding-right:10px;color:#000000;}
+.issues td .no-mobile {padding-left:30px;}
+
+.xenmedia {font-family:'Roboto', sans-serif;}
+.xenmedia td {padding-top:36px;padding-left:31px;padding-right:36px;color:#666666;font-size:20px;}
+
+.please-click td {color:#97ab53;font-size:2.8vw;padding-top:61px;padding-bottom:28px;}
+
+.see-proposal td {padding-bottom:40px;}
+.see-proposal td button {border-radius:8.8px;background-color:#97ab53;width:40.57%;border:0;outline:0;
+  height:0;padding-top:3%;padding-bottom:7%;color:#ffffff;font-size:3.2vw;letter-spacing:2.1px;
+  font-family:'Montserrat', sans-serif;}
+
+@media all and (max-width: 600px) {
+  .menu {font-size:23px;}
+  .lorem-ipsum td {font-size:18px;}
+  .your-website td {font-size:18px;}
+  .issue-we-found td {font-size:18px;}
+  .issues td {font-size:18px;}
+  .issues td .num {font-size:18px;}
+  .issues td .no-mobile {padding-left:27px;}
+  .xenmedia td {font-size:18px;}
+
+  .five{display:none;}
+}
+
+@media all and (max-width: 500px) {
+  .menu {font-size:21px;}
+  .lorem-ipsum td {font-size:16px;}
+  .your-website td {font-size:16px;}
+  .issue-we-found td {font-size:16px;}
+  .issues td {font-size:16px;}
+  .issues td .num {font-size:16px;}
+  .xenmedia td {font-size:16px;}
+  .four{display:none;}
+}
+
+@media all and (max-width: 400px) {
+  .menu {font-size:17px;}
+  .lorem-ipsum td {font-size:15px;}
+  .your-website td {font-size:15px;}
+  .issue-we-found td {font-size:15px;}
+  .issues td {font-size:15px;}
+  .issues td .num {font-size:15px;}
+  .issues td .no-mobile {padding-left:25px;}
+  .xenmedia td {font-size:15px;}
+  .please-click td {font-size:3.8vw;}
+  .three{display:none;}
+}
+
+@media all and (min-width:800px){
+  .please-click td {font-size:23px;}
+  .see-proposal td button {font-size:26px;}
+}
