@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>HTML Email Template</title>
+  <title>HTML Email Template - California-Korean</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet"/>
@@ -18,7 +18,8 @@
 
   .img-outer-wrapper {display:flex;flex-flow:row wrap;justify-content:center;align-items:center;}
   .img-wrapper {padding:calc(3% + 10px) 0;margin:0 2%;}
-  .logo-table {width:600px;} .title-table {width:100%;}
+  .client-logo-wrapper {width:127px;} .client-logo-wrapper img {width:100%;}
+  .logo-table {width:425px;} .title-table {width:100%;}
 
   .title-section td {height:290px;background:url('./imgs/bg.png');background-position:0 0;}
   .main-title {color:#fff;font-weight:600;margin:0;margin-bottom:15px;font-size:32px;}
@@ -40,6 +41,8 @@
   .icon-wrap {position:relative;width:75px;height:0;padding-bottom:39%;}
   .icon-inner-wrap {position:absolute;top:0;left:0;width:100%;height:100%;font-size:30px;color:#465ced;
     border-radius:100%;background-color:#fff;display:flex;justify-content:center;align-items:center;}
+  .icon-img-wrapper {width:54%;} .icon-img-wrapper img {width:100%;}
+
   .info-area {color:#fff;font-size:14px;font-weight:600;}
   .btn-area {padding:60px 0;}
   .btn-area button {border-radius:9px;background-color:#fff;padding:15px 45px;
@@ -70,9 +73,9 @@
   <table class="logo-table" align="center" cellpadding="0" cellspacing="0">
     <tr class="header" align="center">
       <td class="img-outer-wrapper">
-       <div class="img-wrapper"><img src="./imgs/cali-korea-logo.png" /></div>
-       <div class="img-wrapper"><img src="./imgs/handshake.png" /></div>
-       <div class="img-wrapper"><img src="./imgs/xen-logo.png" /></div>
+         <div class="img-wrapper client-logo-wrapper"><img src="./imgs/cali-korea-logo.png" /></div>
+         <div class="img-wrapper"><img src="./imgs/handshake.png" /></div>
+         <div class="img-wrapper"><img src="./imgs/xen-logo.png" /></div>
       </td>
     </tr>
   </table>
@@ -114,7 +117,9 @@
                   <div class="icon-area">
                     <div class="icon-wrap">
                       <div class="icon-inner-wrap">
-                        <i class="fas fa-laptop-code"></i>
+                        <div class="icon-img-wrapper">
+                          <img src="./imgs/fontawesome-search.png" />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -128,7 +133,9 @@
                   <div class="icon-area">
                     <div class="icon-wrap">
                       <div class="icon-inner-wrap">
-                        <i class="fas fa-search"></i>
+                        <div class="icon-img-wrapper">
+                          <img src="./imgs/fontawesome-search.png" />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -142,7 +149,9 @@
                   <div class="icon-area">
                     <div class="icon-wrap">
                       <div class="icon-inner-wrap">
-                        <i class="fas fa-tags fa-flip-horizontal"></i>
+                        <div class="icon-img-wrapper">
+                          <img src="./imgs/fontawesome-pricetag.png" />
+                        </div>
                       </div>
                     </div>
                   </div>
